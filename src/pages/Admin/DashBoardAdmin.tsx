@@ -1,5 +1,5 @@
 import { useNavigate, useNavigation } from "react-router-dom";
-import "./DashboardAdmin.css";
+import "./DashBoardAdmin.css";
 import {
   FaBoxOpen,
   FaUsers,
