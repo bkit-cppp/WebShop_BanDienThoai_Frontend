@@ -1,0 +1,180 @@
+
+.user-container-center {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background:#ffffff;
+}
+.title{
+    color: #d70000;
+}
+.left-box {
+    width: 55%;
+    font-size:26px;
+    padding: 40px 60px;
+   
+}
+.brand-logo{
+    height: 40px;
+    padding-bottom: 40px 60px;
+}
+
+.left-box h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff9f9;
+}
+
+.red {
+    color: #e60000;
+}
+
+.benefit-frame {
+    margin-top: 30px;
+    padding: 30px;
+    background: #fff9f9;
+    border: 2px solid #d70000;
+    border-radius: 30px;
+
+    /* tạo bo góc CellphoneS đặc trưng */
+    clip-path: polygon(
+        20px 0%, calc(100% - 20px) 0%, 
+        100% 20px, 100% calc(100% - 20px), 
+        calc(100% - 20px) 100%, 20px 100%, 
+        0% calc(100% - 20px), 0% 20px
+    );
+}
+
+.benefit-box ul {
+    padding-left: 20px;
+}
+
+.benefit-box li {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.masCot {
+    width: 40%;
+    margin-top: 10px;
+}
+
+.right-box {
+    width: 40%;
+    padding: 40px 120px;
+    
+}
+.user-form{
+    max-width: 650px;
+    width: 100%;
+}
+.login-form{
+    max-width: 650px;
+    width: 100%;
+}
+.login-form label{
+    font-weight:bold;
+    font-size: 26px ;
+    margin-top:10px ;
+}
+.login-form input{
+    width: 100%;
+    padding: 12px;
+    font-size: 26px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.title {
+    text-align: center;
+    color: #d70000;
+    margin-bottom: 20px;
+}
+
+.user-form label {
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+.user-form input {
+    width: 100%;
+    padding: 12px;
+    font-size: 26px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.btn-register {
+    width: 100%;
+    padding: 12px;
+    background: #d70000;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+ .btn-login{
+      width: 100%;
+    padding: 12px;
+    background: #d70000;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+ }
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.forgot {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: #0066ff;
+    cursor: pointer;
+}
+
+.divider {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+}
+
+.divider span {
+    background: white;
+    padding: 0 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-between;
+}
+
+.google-btn, .zalo-btn {
+    width: 48%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.register-text {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.center {
+    justify-content: center;
+}

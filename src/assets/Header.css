@@ -1,0 +1,200 @@
+/* ========= TOPBAR ========= */
+
+.topbar {
+  background: #f3f3f3;
+
+  padding: 10px 80px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.topbar-left {
+  display: flex;
+  gap: 12px;
+}
+
+.topbar-left a {
+  color: #6c757d;
+
+  text-decoration: none;
+
+  font-size: 14px;
+}
+
+.topbar-right {
+  display: flex;
+
+  gap: 16px;
+
+  color: #6c757d;
+
+  cursor: pointer;
+}
+
+.topbar-right svg:hover {
+  color: #d19c97;
+}
+
+/* ========= HEADER ========= */
+
+.header {
+  padding: 25px 80px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: white;
+}
+
+/* ========= LOGO ========= */
+
+.header-logo a {
+  text-decoration: none;
+}
+
+.header-logo h1 {
+  font-size: 42px;
+  font-weight: 700;
+
+  color: #222;
+
+  margin: 0;
+}
+
+.header-logo span {
+  color: #d19c97;
+
+  border: 1px solid #d19c97;
+
+  padding: 4px 15px;
+
+  margin-right: 5px;
+}
+
+/* ========= SEARCH ========= */
+
+.header-search {
+  width: 550px;
+
+  display: flex;
+
+  border: 1px solid #ddd;
+
+  border-radius: 4px;
+
+  overflow: hidden;
+}
+
+.header-search input {
+  flex: 1;
+
+  border: none;
+
+  outline: none;
+
+  padding: 12px 16px;
+
+  font-size: 15px;
+}
+
+.header-search button {
+  width: 60px;
+
+  border: none;
+
+  background: white;
+
+  color: #d19c97;
+
+  cursor: pointer;
+
+  font-size: 18px;
+}
+
+/* ========= ICON ========= */
+
+.header-icons {
+  display: flex;
+
+  gap: 15px;
+}
+
+.icon-btn {
+  width: 45px;
+  height: 45px;
+
+  border: 1px solid #ddd;
+
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+
+  color: #d19c97;
+
+  text-decoration: none;
+}
+
+.icon-btn span {
+  position: absolute;
+
+  top: -8px;
+  right: -8px;
+
+  width: 20px;
+  height: 20px;
+
+  border-radius: 50%;
+
+  background: #d19c97;
+
+  color: white;
+
+  font-size: 12px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ========= RESPONSIVE ========= */
+
+@media(max-width:992px){
+
+  .header{
+      flex-direction:column;
+      gap:20px;
+      padding:20px;
+  }
+
+  .header-search{
+      width:100%;
+  }
+
+  .topbar{
+      padding:10px 20px;
+  }
+}
+
+@media(max-width:768px){
+
+  .topbar-left{
+      display:none;
+  }
+
+  .topbar{
+      justify-content:center;
+  }
+
+  .header-logo h1{
+      font-size:30px;
+  }
+}
